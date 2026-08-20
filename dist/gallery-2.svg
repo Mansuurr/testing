@@ -1,0 +1,40 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0F5F2"/>
+      <stop offset="1" stop-color="#D9E8E1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg2)"/>
+  <g opacity="0.18">
+    <path d="M0 140H1200" stroke="#2D6150" stroke-width="1"/>
+    <path d="M0 280H1200" stroke="#2D6150" stroke-width="1"/>
+    <path d="M0 420H1200" stroke="#2D6150" stroke-width="1"/>
+    <path d="M0 560H1200" stroke="#2D6150" stroke-width="1"/>
+    <path d="M0 700H1200" stroke="#2D6150" stroke-width="1"/>
+    <path d="M220 0V800" stroke="#2D6150" stroke-width="1"/>
+    <path d="M440 0V800" stroke="#2D6150" stroke-width="1"/>
+    <path d="M660 0V800" stroke="#2D6150" stroke-width="1"/>
+    <path d="M880 0V800" stroke="#2D6150" stroke-width="1"/>
+  </g>
+  <rect x="122" y="120" width="956" height="520" rx="28" fill="#F8FBF9" stroke="#D9E6E0" stroke-width="2"/>
+  <rect x="204" y="180" width="268" height="320" rx="24" fill="#0E5C39" opacity="0.95"/>
+  <rect x="516" y="190" width="500" height="42" rx="21" fill="#E5F5EB"/>
+  <rect x="516" y="254" width="432" height="20" rx="10" fill="#D2EADF"/>
+  <rect x="516" y="296" width="462" height="20" rx="10" fill="#D2EADF"/>
+  <rect x="516" y="338" width="380" height="20" rx="10" fill="#D2EADF"/>
+  <rect x="516" y="390" width="300" height="72" rx="18" fill="#DFF5E9"/>
+  <g>
+    <path d="M770 444L832 382L874 424L958 340" stroke="#0E5C39" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="770" cy="444" r="16" fill="#0E5C39"/>
+    <circle cx="832" cy="382" r="16" fill="#0E5C39"/>
+    <circle cx="874" cy="424" r="16" fill="#0E5C39"/>
+    <circle cx="958" cy="340" r="16" fill="#0E5C39"/>
+  </g>
+  <g>
+    <rect x="170" y="114" width="240" height="72" rx="18" fill="#FFFFFF" opacity="0.92"/>
+    <text x="194" y="162" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0E5C39">SAQ</text>
+    <text x="270" y="162" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="3" fill="#5A6963">GROUP</text>
+  </g>
+  <text x="178" y="698" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#1A2B25">Анализ спектра и радиомониторинг</text>
+</svg>

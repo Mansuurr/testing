@@ -1,0 +1,37 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4F7F6"/>
+      <stop offset="1" stop-color="#DDEBE5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg3)"/>
+  <g opacity="0.17">
+    <path d="M0 160H1200" stroke="#2B5F50" stroke-width="1"/>
+    <path d="M0 320H1200" stroke="#2B5F50" stroke-width="1"/>
+    <path d="M0 480H1200" stroke="#2B5F50" stroke-width="1"/>
+    <path d="M0 640H1200" stroke="#2B5F50" stroke-width="1"/>
+    <path d="M220 0V800" stroke="#2B5F50" stroke-width="1"/>
+    <path d="M440 0V800" stroke="#2B5F50" stroke-width="1"/>
+    <path d="M660 0V800" stroke="#2B5F50" stroke-width="1"/>
+    <path d="M880 0V800" stroke="#2B5F50" stroke-width="1"/>
+  </g>
+  <rect x="132" y="120" width="936" height="520" rx="28" fill="#F8FAF9" stroke="#D8E5DE" stroke-width="2"/>
+  <rect x="188" y="188" width="470" height="280" rx="22" fill="#E8F5EE"/>
+  <rect x="706" y="188" width="300" height="280" rx="22" fill="#0E5C39"/>
+  <rect x="210" y="218" width="130" height="40" rx="20" fill="#0E5C39" opacity="0.88"/>
+  <rect x="210" y="282" width="200" height="18" rx="9" fill="#C3E5D1"/>
+  <rect x="210" y="318" width="198" height="18" rx="9" fill="#C3E5D1"/>
+  <rect x="210" y="354" width="164" height="18" rx="9" fill="#C3E5D1"/>
+  <circle cx="830" cy="290" r="80" fill="#DDF4E9" opacity="0.9"/>
+  <path d="M800 290H860" stroke="#0E5C39" stroke-width="16" stroke-linecap="round"/>
+  <path d="M830 260V320" stroke="#0E5C39" stroke-width="16" stroke-linecap="round"/>
+  <rect x="744" y="420" width="170" height="20" rx="10" fill="#DDF4E9" opacity="0.8"/>
+  <rect x="742" y="454" width="212" height="20" rx="10" fill="#DDF4E9" opacity="0.8"/>
+  <g>
+    <rect x="176" y="112" width="250" height="74" rx="18" fill="#FFFFFF" opacity="0.94"/>
+    <text x="198" y="160" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0E5C39">SAQ</text>
+    <text x="276" y="160" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="3" fill="#5A6963">GROUP</text>
+  </g>
+  <text x="178" y="700" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#1B2A25">Проверка авто и скрытых маяков</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4F8F6"/>
+      <stop offset="1" stop-color="#D7E5DE"/>
+    </linearGradient>
+    <linearGradient id="panel1" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0B5F40"/>
+      <stop offset="1" stop-color="#103B2D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg1)"/>
+  <g opacity="0.18">
+    <path d="M0 160H1200" stroke="#2B5D4C" stroke-width="1"/>
+    <path d="M0 320H1200" stroke="#2B5D4C" stroke-width="1"/>
+    <path d="M0 480H1200" stroke="#2B5D4C" stroke-width="1"/>
+    <path d="M0 640H1200" stroke="#2B5D4C" stroke-width="1"/>
+    <path d="M200 0V800" stroke="#2B5D4C" stroke-width="1"/>
+    <path d="M400 0V800" stroke="#2B5D4C" stroke-width="1"/>
+    <path d="M600 0V800" stroke="#2B5D4C" stroke-width="1"/>
+    <path d="M800 0V800" stroke="#2B5D4C" stroke-width="1"/>
+    <path d="M1000 0V800" stroke="#2B5D4C" stroke-width="1"/>
+  </g>
+  <rect x="140" y="110" width="920" height="520" rx="28" fill="#F8FAF9" stroke="#D8E4DD" stroke-width="2"/>
+  <rect x="230" y="180" width="560" height="300" rx="18" fill="url(#panel1)"/>
+  <g opacity="0.18">
+    <circle cx="320" cy="260" r="110" fill="#B5F2D5"/>
+    <circle cx="520" cy="250" r="150" fill="#6DD0A3"/>
+    <circle cx="664" cy="300" r="120" fill="#B5F2D5"/>
+  </g>
+  <rect x="270" y="220" width="220" height="36" rx="18" fill="#E1F5EA" opacity="0.9"/>
+  <rect x="270" y="280" width="350" height="18" rx="9" fill="#D3F0E1" opacity="0.7"/>
+  <rect x="270" y="318" width="300" height="18" rx="9" fill="#D3F0E1" opacity="0.7"/>
+  <rect x="270" y="356" width="252" height="18" rx="9" fill="#D3F0E1" opacity="0.7"/>
+  <circle cx="840" cy="250" r="82" fill="#0E5C39"/>
+  <path d="M812 250H868" stroke="#DFF5E9" stroke-width="18" stroke-linecap="round"/>
+  <path d="M840 222V278" stroke="#DFF5E9" stroke-width="18" stroke-linecap="round"/>
+  <path d="M794 330H886" stroke="#DFF5E9" stroke-width="18" stroke-linecap="round" opacity="0.75"/>
+  <rect x="172" y="566" width="270" height="30" rx="15" fill="#0E5C39" opacity="0.9"/>
+  <rect x="500" y="566" width="220" height="30" rx="15" fill="#0E5C39" opacity="0.65"/>
+  <g>
+    <rect x="780" y="118" width="280" height="84" rx="18" fill="#FFFFFF" opacity="0.9"/>
+    <text x="815" y="162" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#0E5C39">SAQ</text>
+    <text x="896" y="162" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="3" fill="#5A6963">GROUP</text>
+  </g>
+  <text x="178" y="706" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#1B2A25">Нелинейная локация и поиск устройств</text>
+</svg>
