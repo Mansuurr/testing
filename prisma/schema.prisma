@@ -1,0 +1,99 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String         @id @default(uuid())
+  email         String         @unique
+  password      String
+  name          String?
+  role          String         @default("USER")
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  refreshTokens RefreshToken[]
+}
+
+model RefreshToken {
+  id          String   @id @default(uuid())
+  token       String   @unique
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  fingerprint String?
+  expiresAt   DateTime
+  createdAt   DateTime @default(now())
+}
+
+model Request {
+  id          String   @id @default(uuid())
+  name        String
+  phone       String
+  messenger   String?  @default("phone")
+  type        String
+  description String?
+  answers     String?
+  source      String   @default("direct")
+  status      String   @default("NEW")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Service {
+  id          String   @id @default(uuid())
+  slug        String   @unique
+  title       String
+  shortDesc   String
+  fullDesc    String
+  icon        String   @default("shield")
+  order       Int      @default(0)
+  active      Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Pricing {
+  id          String   @id @default(uuid())
+  name        String
+  price       String
+  period      String   @default("за проверку")
+  features    String
+  popular     Boolean  @default(false)
+  order       Int      @default(0)
+  active      Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model QuizResult {
+  id          String   @id @default(uuid())
+  name        String?
+  phone       String?
+  email       String?
+  answers     String
+  score       Int
+  riskLevel   String
+  checklist   String
+  createdAt   DateTime @default(now())
+}
+
+model Settings {
+  id            String   @id @default(uuid())
+  phone         String   @default("+7 (999) 000-00-00")
+  email         String   @default("info@tscm-group.ru")
+  address       String   @default("Москва, ул. Примерная, 1")
+  expressPrice  String   @default("15 000 ₸")
+  standardPrice String   @default("35 000 ₸")
+  premiumPrice  String   @default("80 000 ₸")
+  updatedAt     DateTime @updatedAt
+}
+
+model CalculatorResult {
+  id         String   @id @default(uuid())
+  answers    String
+  objectType String
+  createdAt  DateTime @default(now())
+}
